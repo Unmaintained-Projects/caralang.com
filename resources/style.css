@@ -143,31 +143,44 @@ a:hover, a:active {
 
 /* portfolio container */
 .portfolio_container {
-  background-color: black;
-  display: flex;
+  display: block; /* new line */
   justify-content: center;
   align-items: center;
+  background-color: black;
   height: 800px;
   color: white;
 }
-.portfolio_intro {
+.portfolio_title { /* centers title */
   display: flex;
   justify-content: center;
-}
-.portfolio_intro h4 {
   font-size: 40px;
+  padding-top: 120px;
 }
-.portfolio_box {
+.portfolio_box { /* inline boxes */
   display: flex;
   justify-content: center;
 }
-.portfolio_example {
-  display: block;
-  border: 1px solid white;
+.portfolio_example { /* centers text inside box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
   width: 400px;
   height: 300px;
   margin: 20px;
 }
+.portfolio_example img {
+  width: 400px;
+  height: 300px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -178,9 +191,9 @@ a:hover, a:active {
   align-items: center;
   background-color: white;
   color: black;
-  height: 800px;
+  height: 750px;
 }
-.contact_intro, .contact_message, .email, .footer {
+.contact_intro, .email {
   display: block;
   justify-content: center;
   padding-bottom: 20px;
@@ -197,13 +210,31 @@ a:hover, a:active {
 .contact_container p {
   font-size: 30px;
 }
-.email p {
+.email a {
   margin: 0px;
+  color: black;
 }
+
+/* email box */
+.email a {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.email a:hover, a:active {
+      background-color: red;
+}
+/* email box end */
+
 
 /* footer */
 .footer {
   display: flex;
   justify-content: center;
   color: gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
