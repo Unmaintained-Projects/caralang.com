@@ -2,7 +2,6 @@ body {
   font-family: 'Montserrat';
   font-weight: lighter;
   margin: 0px;
-
 }
 
 
@@ -169,6 +168,9 @@ a:hover, a:active {
   width: 400px;
   height: 300px;
   margin: 20px;
+}
+.portfolio_example a {
+  color: black;
 }
 .portfolio_example img {
   width: 400px;
