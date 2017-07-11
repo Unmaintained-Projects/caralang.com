@@ -3,7 +3,6 @@ body {
 }
 
 .navigation_container {
-  display: block;
   justify-content: center;
   height: 700px;
   width: 300px;
@@ -28,4 +27,10 @@ body {
   font-size: 25px;
   color: gray;
   margin: 10px;
+}
+
+
+.gallery_container {
+  width: 1000px;
+  border: 1px solid red;
 }
